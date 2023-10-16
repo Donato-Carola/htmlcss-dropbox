@@ -53,6 +53,8 @@ div.right-nav {
 
 
 
+
+
 /*css per la sezione download-free*/
 
 section.download-free {
@@ -69,13 +71,14 @@ section.download-free {
 
 
 
-h1 {
+h1#titolo-download {
   height: 30px;
   color: black;
   background-color: aqua;
   text-align: center;
 margin: 2rem 0;
 }
+
 
 div.flex-box {
     display: flex;
@@ -118,6 +121,49 @@ section.plane-business {
   height: 1544px;
   background-color: blue;
 }
+ 
+section.plane-business h1
+
+{
+    padding: 1rem 0;
+}
+
+div.box-input{
+    padding: 1rem 0;
+}
+
+div.box-piano-sub{
+    background-color: white;
+    height: 100px;
+    width: calc(100% / 3);
+}
+
+div.box-piano-sub article>ul{
+    list-style: none;
+}
+
+div.box-piano-sub article>ul>h4{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*css per la sezione partner con due ragazzi che ridono*/
 
