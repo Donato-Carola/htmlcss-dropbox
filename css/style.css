@@ -15,7 +15,7 @@
 }
 
 .container{
-width: 1000px;
+width: 1200px;
 margin: 0 auto;
 }
 
@@ -117,6 +117,11 @@ div.right-download {
 
 /*css per la sezione dove scegliere il piano business*/
 
+.container-business{
+    width: 1100px;
+margin: 0 auto;
+}
+
 section.plane-business {
   height: 1544px;
   background-color: blue;
@@ -134,15 +139,17 @@ div.box-input{
 
 div.box-piano-sub{
     background-color: white;
-    height: 100px;
+    
     width: calc(100% / 3);
 }
 
-div.box-piano-sub article>ul{
+/*css lista*/
+
+div.box-piano-sub article>ul.style-list{
     list-style: none;
 }
 
-div.box-piano-sub article>ul>h4{
+div.box-piano-sub article>ul.prima-lista>h4{
     text-align: center;
 }
 
