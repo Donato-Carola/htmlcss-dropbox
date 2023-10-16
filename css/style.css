@@ -4,5 +4,46 @@
     padding: 0;
     box-sizing: border-box;
 
-    
+     border: 1px dashed black;    
+}
+
+
+
+header{
+    height: 50px;
+    background-color: aqua;
+
+}
+
+
+
+section.download-free{
+        height: 826px;
+        background-color: blueviolet;
+}
+
+section.plane-business{
+    height: 1544px;
+    background-color: blue;
+}
+
+section.partener-dropbox{
+    height: 685px;
+    background-color: crimson;
+}
+
+section.dropbox-business{
+    height: 1659px;
+    background-color: coral;
+}
+
+
+section.logo-aziende-partner{
+    height: 1124px;
+    background-color: magenta;
+}
+
+footer{
+    height: 569px;
+    background-color: black;
 }
