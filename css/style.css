@@ -1,49 +1,147 @@
 /*--RESET--*/
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 
-     border: 1px dashed black;    
+  border: 1px dashed black;
 }
 
 
 
-header{
-    height: 50px;
-    background-color: aqua;
+/*css per dare flex ai tag a cui servono*/
+.flex {
+  display: flex;
+}
 
+.container{
+width: 1000px;
+margin: 0 auto;
 }
 
 
 
-section.download-free{
-        height: 826px;
-        background-color: blueviolet;
+
+/*header per la navigazione*/
+
+header {
+  height: 80px;
+  background-color: aqua;
+  align-items: center;
+}
+nav.flex-nav {
+  justify-content: space-between;
+  width: 100%;
 }
 
-section.plane-business{
-    height: 1544px;
-    background-color: blue;
+div.left-nav {
+  height: 50px;
+  width: 30%;
+  background-color: magenta;
 }
 
-section.partener-dropbox{
-    height: 685px;
-    background-color: crimson;
-}
-
-section.dropbox-business{
-    height: 1659px;
-    background-color: coral;
+div.right-nav {
+  height: 50px;
+  width: 30%;
+  background-color: magenta;
 }
 
 
-section.logo-aziende-partner{
-    height: 1124px;
-    background-color: magenta;
+
+
+
+
+
+
+/*css per la sezione download-free*/
+
+section.download-free {
+  height: 826px;
+  background-color: rgb(180, 208, 231);
+ 
+  justify-content: center;
+  align-items: center;
 }
 
-footer{
-    height: 569px;
-    background-color: black;
+
+
+
+
+
+
+h1 {
+  height: 30px;
+  color: black;
+  background-color: aqua;
+  text-align: center;
+margin: 2rem 0;
+}
+
+div.flex-box {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+  
+
+
+
+div.left-download {
+  height: 300px;
+  width: 300px;
+  background-color: rgb(138, 18, 138);
+}
+
+
+div.right-download {
+  height: 300px;
+  width: 300px;
+  background-color: rgb(90, 38, 90);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*css per la sezione dove scegliere il piano business*/
+
+section.plane-business {
+  height: 1544px;
+  background-color: blue;
+}
+
+/*css per la sezione partner con due ragazzi che ridono*/
+
+section.partener-dropbox {
+  height: 685px;
+  background-color: crimson;
+}
+
+/*css per la sezione per il paino business */
+
+section.dropbox-business {
+  height: 1659px;
+  background-color: coral;
+}
+
+/*css per la sezione lo go aziende partner*/
+
+section.logo-aziende-partner {
+  height: 1124px;
+  background-color: magenta;
+}
+
+/*css per il footer*/
+footer {
+  height: 569px;
+  background-color: black;
 }
