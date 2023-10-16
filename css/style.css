@@ -90,14 +90,14 @@ div.flex-box {
 
 div.left-download {
   height: 300px;
-  width: 300px;
+  width: 100%;
   background-color: rgb(138, 18, 138);
 }
 
 
 div.right-download {
   height: 300px;
-  width: 300px;
+  width:100%;
   background-color: rgb(90, 38, 90);
 }
 
