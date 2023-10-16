@@ -5,14 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dropbox crazy</title>
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
   </head>
   <body>
     <!--Header con menu formata da una nav-->
 
     <header class="flex">
       <nav class="flex-nav flex">
-        <div class="left-nav"></div>
-        <div class="right-nav"></div>
+        <div class="left-nav flex">
+          <img src="img/logo-small.png" alt="logo DropBox" />
+          <span>Perchè Dropbox</span>
+          <span>Funzioni</span>
+          <span>Piani e prezzi</span>
+        </div>
+        <div class="right-nav flex">
+          <span>Supporto</span>
+          <span>Contatta l'ufficio vendite </span>
+          <span>Accedi</span>
+          <button>Inizia</button>
+        </div>
       </nav>
     </header>
 
@@ -22,7 +35,7 @@
         <div class="container">
           <h1 id="titolo-download">TITOLONE</h1>
           <div class="flex-box">
-            <div class="left-download">dfdsfdddddddddddddd</div>
+            <div class="left-download"></div>
             <div class="right-download">dsffffffffffffffffff</div>
           </div>
         </div>
@@ -36,46 +49,35 @@
           <label for="input">Fatturazione mensile</label>
           <input type="radio" id="input" />
           <label for="input">Fatturazione annuale</label>
-       </div>
+        </div>
         <div class="box-piano-sub">
           <article>
             <ul class="prima-lista style-list">
-                <h4>Singolo</h4>
-                <li>
-                     <h2>Professional</h2>
-                </li>
-                <li>
-                    12.00
-                </li>
-                <li>
-                    /mese
-                </li>
+              <h4>Singolo</h4>
+              <li>
+                <h2>Professional</h2>
+              </li>
+              <li>12.00</li>
+              <li>/mese</li>
             </ul>
-           <ul class="seconda-lista style-list">
-            <li>
-                1 utente
-            </li>
-            <li>
-                5 TB di spazio di archivazione sicura         
-            </li>
-            <li>Funzioni di Produttività premium e condivisione file semplice e sicura</li>
-           </ul>
+            <ul class="seconda-lista style-list">
+              <li>1 utente</li>
+              <li>5 TB di spazio di archivazione sicura</li>
+              <li>
+                Funzioni di Produttività premium e condivisione file semplice e
+                sicura
+              </li>
+            </ul>
 
-           <button>Prova gratis per trenta giorni</button>
-           <p>Oppure <a href="#">acquista ora</a></p>
-           <hr>
-            
-           <ul class="terza-lista style-list">
-             <h4>Punti salienti del piano</h4>
-            <li>
-                invia file fino a 100gb con DropBox Transfert
+            <button>Prova gratis per trenta giorni</button>
+            <p>Oppure <a href="#">acquista ora</a></p>
+            <hr />
 
-            </li>
-            <li>
-                Cartelle offline su dispositivi mobili
-            </li>
-           </ul>
-
+            <ul class="terza-lista style-list">
+              <h4>Punti salienti del piano</h4>
+              <li>invia file fino a 100gb con DropBox Transfert</li>
+              <li>Cartelle offline su dispositivi mobili</li>
+            </ul>
           </article>
         </div>
       </section>

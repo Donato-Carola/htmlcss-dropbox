@@ -4,7 +4,11 @@
   padding: 0;
   box-sizing: border-box;
 
-  border: 1px dashed black;
+  /*border: 1px dashed black;*/
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
 }
 
 
@@ -25,26 +29,57 @@ margin: 0 auto;
 /*header per la navigazione*/
 
 header {
-  height: 80px;
-  background-color: aqua;
-  align-items: center;
+  height: 90px;
+ 
+ 
 }
+
 nav.flex-nav {
   justify-content: space-between;
   width: 100%;
+  align-items: center;
+  height: 100%;
+ 
+  
+  
 }
 
-div.left-nav {
-  height: 50px;
-  width: 30%;
-  background-color: magenta;
+.left-nav,
+.right-nav{
+   
+    align-items: center;
+    
 }
 
-div.right-nav {
-  height: 50px;
-  width: 30%;
-  background-color: magenta;
+
+
+
+div.left-nav img,span{
+    padding: 0 1rem;
+    height: 100%;
+
 }
+
+div.right-nav button{
+    padding: 0.5rem 1rem;
+    background-color:rgb(0, 97, 255) ;
+    color: white;
+    border: 0;
+    margin-right: 0.5rem;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
