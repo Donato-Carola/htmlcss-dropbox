@@ -223,20 +223,6 @@ div.flex-box-orizzontale-sub div.right-sub-row{
 
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  
 /*FINE SEZIONE 2*/
 
 
@@ -248,10 +234,81 @@ div.flex-box-orizzontale-sub div.right-sub-row{
   
   /*css per la sezione partner con due ragazzi che ridono*/
   
-  section.partener-dropbox {
-    height: 685px;
-    background-color: crimson;
+  section.partner-dropbox {
+    margin: 13rem;
+    
+   
+    
+    
+    
+  
   }
+
+
+
+  div.container-partner{
+    
+    width: 1100px;
+    margin: 0 auto;
+    
+   
+   
+   
+   
+  }
+
+   div.container-partner>div.left-box-partner{
+    
+    width: 60%;
+   
+     
+     
+   }
+
+   div.container-partner>div.right-box-partner{
+   padding: 3rem 3.5rem;
+    width: 40%;
+   
+    
+   }
+
+   div.left-box-partner>img{
+  width: 100%;
+    object-fit:cover;
+
+   }
+
+   div.right-box-partner h3{
+   
+    font-size: 25px;
+   }
+
+   div.right-box-partner p{
+    padding: 1rem 0;
+   }
+
+   div.right-box-partner button{
+    border: 1px solid black;
+    padding: 0.8rem 1.25rem;
+   }
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   
   /*css per la sezione per il paino business */
   
@@ -259,6 +316,34 @@ div.flex-box-orizzontale-sub div.right-sub-row{
     height: 1659px;
     background-color: coral;
   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
   
   /*css per la sezione lo go aziende partner*/
   
