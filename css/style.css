@@ -462,6 +462,19 @@ div.container-free-trial div.box-right-free>button{
 
 
 
+/*CSS SEZIONE DOMANDE*/
+
+section.faq {
+  padding: 7rem 0;
+}
+
+section.faq>hr{
+  margin: 2rem 0;
+}
+
+section.faq>h1{
+  font-size: 35px;
+}
 
 
 
@@ -480,8 +493,37 @@ div.container-free-trial div.box-right-free>button{
   
   /*css per il footer*/
   footer {
-    height: 569px;
+   
+    color: white;
     background-color: black;
-    margin-top: 20rem;
   }
+
+  footer section>div{
+    padding: 7rem 0;
+    justify-content: space-between;
+  }
+
+
+
+  div.list>h4{
+    padding-bottom: 1rem;
+    font-size: x-large;
+
+  }
+
+
+  div.list ul{
+    list-style: none;
+    line-height: 3rem;
+    
+  }
+
+  footer p{
+  padding: 2rem 0;
+    
+  }
+  
+ 
+
+
   
