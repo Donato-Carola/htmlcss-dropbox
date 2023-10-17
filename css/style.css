@@ -157,16 +157,16 @@ div.box-piano-sub {
     background-color: white;
     
     justify-content: space-between;
-   
+ 
 }
 
 article.margin-singoli-box{
-  margin-right: 2rem;
+  margin-right: 3rem;
 }
 
 
   article.article-seconda-sezione{
-   width: calc(100% / 3);
+
     
     border:1px solid black;
     
@@ -195,6 +195,37 @@ article.article-seconda-sezione>button{
  padding: 0.5rem 2rem;
 
 }
+
+div.flex-box-orizzontale-sub{
+  display: flex;
+  padding: 2rem;
+  width: 100%;
+  
+  
+}
+
+div.flex-box-orizzontale-sub div>ul{
+  list-style: none;
+}
+
+div.flex-box-orizzontale-sub button.button{
+  padding: 0.5rem 2rem;
+  width: 100%;
+}
+
+div.flex-box-orizzontale-sub div.left-sub-row{
+  width: 70%;
+  
+}
+
+div.flex-box-orizzontale-sub div.right-sub-row{
+  width: 30%;
+
+}
+
+
+
+
 
 
 
