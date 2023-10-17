@@ -385,10 +385,89 @@ section.team-use-dropbox>h1{
   
   /*css per la sezione lo go aziende partner*/
   
-  section.logo-aziende-partner {
-    height: 1124px;
-    background-color: magenta;
+ section.logo-aziende-partner {
+
+   width: 100%;
+   
+     }
+
+     div.dimensioni-box-logo{
+      width: calc(100% / 3);
+     }
+   
+    
+    
+    
+
+
+
+ section.logo-aziende-partner>div.box-aziende-left{
+      
+      
+      flex-wrap: wrap;
   }
+
+
+ div.dimension-img img{
+padding: 4rem;
+     object-fit:contain;
+     width: calc(100% / 2);
+ }
+
+ 
+
+
+  div.box-aziende-right{
+    flex-wrap: wrap;
+  }
+
+ 
+
+
+/* CSS sezione aggiuntiva della quinta*/
+
+section.free-trial{
+  background-color: rgb(180, 208, 231);
+  padding: 7rem 0;
+  
+}
+
+
+
+
+div.container-free-trial div.box-left-free{
+  width: 50%;
+  color: rgb(97, 8, 43);
+  padding: 0 2rem 0 0;
+  font-size: 25px;
+  
+}
+
+div.container-free-trial div.box-right-free{
+ width: 50%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+
+  
+}
+
+div.container-free-trial div.box-right-free>button{
+  padding: 0.5rem 3rem;
+  border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -403,5 +482,6 @@ section.team-use-dropbox>h1{
   footer {
     height: 569px;
     background-color: black;
+    margin-top: 20rem;
   }
   
