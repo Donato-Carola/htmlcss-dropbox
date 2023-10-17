@@ -355,7 +355,21 @@ div.flex-box-orizzontale-sub div.right-sub-row{
 
 
 
+/*css sezione indipendente dalla quarta, quanti team usano dropbox*/
 
+section.team-use-dropbox{
+  width: 1100px;
+  margin: 0 auto;
+  padding: 10rem 0rem;
+    
+
+}
+
+
+section.team-use-dropbox>h1{
+  font-size: 40px;
+  padding-bottom: 2.5rem;
+}
 
 
 
@@ -375,6 +389,15 @@ div.flex-box-orizzontale-sub div.right-sub-row{
     height: 1124px;
     background-color: magenta;
   }
+
+
+
+
+
+
+
+
+
   
   /*css per il footer*/
   footer {
