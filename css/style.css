@@ -312,9 +312,35 @@ div.flex-box-orizzontale-sub div.right-sub-row{
   
   /*css per la sezione per il paino business */
   
-  section.dropbox-business {
+  /*section.dropbox-business {
     height: 1659px;
     background-color: coral;
+  }*/
+
+
+  div.dimensioni-box-div{
+  /*  border: 1px dashed black;*/
+    width: 100%;
+    padding-top: 2rem;
+  }
+
+  div.container-partner>h1{
+    font-size: 40px;
+  }
+
+  div.dimensioni-box-div article.dimensioni-box-article{
+    width: calc(100% / 3);
+    padding: 1rem 2rem;
+
+  }
+
+  article.dimensioni-box-article>img{
+    width: 100%;
+    object-fit: cover;
+  }
+
+  article.dimensioni-box-article>h3{
+    padding: 1rem 0;
   }
 
 
@@ -342,8 +368,6 @@ div.flex-box-orizzontale-sub div.right-sub-row{
 
 
 
-
-  
   
   /*css per la sezione lo go aziende partner*/
   
