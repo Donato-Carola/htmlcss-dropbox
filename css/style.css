@@ -63,7 +63,7 @@
   section.download-free {
     background-color: rgb(180, 208, 231);
     width: 100%;
-    margin-bottom: 15rem;
+    margin-bottom: 5rem;
   }
   
   div.container-download-free{
@@ -152,39 +152,53 @@
 
 
 
+
 div.box-piano-sub {
     background-color: white;
-    width: 100%;
-    height: 1000px;
     
-   
-   
-    
-  }
-
-  article.flex-box-business{
-    width: calc(100% / 3);
-    display: flex;
-    flex-direction: column;
     justify-content: space-between;
-    height: 100%;
-    border-right:1px solid black;
-    border-bottom: 1px solid black;
-    border-left: 1px solid black;
-    
-    
-  }
+   
+}
 
-  article.flex-box-business>h4.central{
+article.margin-singoli-box{
+  margin-right: 2rem;
+}
+
+
+  article.article-seconda-sezione{
+   width: calc(100% / 3);
+    
+    border:1px solid black;
+    
+
+}
+
+  article>h4.central{
      text-align: center;
-     border: 1px solid black;
+     border-bottom: 1px solid black;
   }
 
 div.box-piano-sub article > ul.style-list {
     list-style: none;
+   
+    
   }
   
- 
+  article.article-seconda-sezione .padding{
+     margin: 2rem 2.5rem;
+  }
+
+
+
+article.article-seconda-sezione>button{
+ margin-left: 1.5rem;
+ padding: 0.5rem 2rem;
+
+}
+
+
+
+
 
 
 
