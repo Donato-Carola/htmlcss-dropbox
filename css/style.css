@@ -128,7 +128,7 @@ section.plane-business h1 {
 }
 
 div.box-input {
-  padding: 0 0 2rem 0;
+  padding: 1rem 0 3rem 0;
 }
 
 
@@ -192,16 +192,25 @@ section.padding ul>li{
  
 }
 
+section.padding ul>li>h5{
+  font-size: 15px;
+}
+
+
 section.padding ul>li>i{
   padding: 0 0.25rem 0 0;
 }
 
 section.padding ul>li>i.fa-solid.fa-check{
-  color: green;
+  color: blue;
 }
 
 section.padding ul>li>button{
   padding: 1rem 2rem;
+}
+
+.size-title-li{
+  font-size: 25px;
 }
 
 
@@ -234,8 +243,16 @@ div.flex-box-orizzontale-sub div > ul {
   list-style: none;
 }
 
+div.left-sub-row ul.prima-lista{
+  padding-bottom: 2rem;
+  line-height: 2rem;
+  }
+
+  
+
+
 div.flex-box-orizzontale-sub button.button {
-  padding: 0.5rem 2rem;
+  padding: 1rem 2rem;
   width: 100%;
 }
 
@@ -246,6 +263,10 @@ div.flex-box-orizzontale-sub div.left-sub-row {
 div.flex-box-orizzontale-sub div.right-sub-row {
   width: 30%;
 }
+
+
+
+
 
 /*FINE SEZIONE 2*/
 
