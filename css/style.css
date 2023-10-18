@@ -127,16 +127,16 @@
   /*css per la sezione dove scegliere il piano business*/
   
   .container-business {
-    width: 1100px;
+    width: 60%;
     margin: 0 auto;
   }
   
   section.plane-business {
     padding: 5rem 0;
    
-    
-    
-  }
+    }
+
+   
   
   section.plane-business h1 {
     padding: 2rem 0;
@@ -235,37 +235,18 @@ div.flex-box-orizzontale-sub div.right-sub-row{
   /*css per la sezione partner con due ragazzi che ridono*/
   
   section.partner-dropbox {
-    margin: 13rem;
-    
-   
-    
-    
-    
-  
-  }
+    margin: 13rem 0;
+    }
 
 
 
-  div.container-partner{
-    
-    width: 1100px;
-    margin: 0 auto;
-    
-   
-   
-   
-   
-  }
 
-   div.container-partner>div.left-box-partner{
-    
-    width: 60%;
-   
-     
-     
+
+   div.container-business >div.left-box-partner{
+   width: 60%;
    }
 
-   div.container-partner>div.right-box-partner{
+   div.container-business >div.right-box-partner{
    padding: 3rem 3.5rem;
     width: 40%;
    
@@ -310,7 +291,7 @@ div.flex-box-orizzontale-sub div.right-sub-row{
 
 
   
-  /*css per la sezione per il paino business */
+  /*css per la sezione per il piano business */
   
   /*section.dropbox-business {
     height: 1659px;
@@ -324,7 +305,7 @@ div.flex-box-orizzontale-sub div.right-sub-row{
     padding-top: 2rem;
   }
 
-  div.container-partner>h1{
+  div.container-business>h1{
     font-size: 40px;
   }
 
