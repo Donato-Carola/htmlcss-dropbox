@@ -448,7 +448,11 @@ section.team-use-dropbox>h1{
 
  #logo-green{
     background-color:rgb(162, 211, 155) ;
-    border: 6px solid green;
+   
+ }
+
+ div.flex-column-logo article.box-loghi:hover{
+  border: 20px solid green;
  }
 
  #logo-mattone{
