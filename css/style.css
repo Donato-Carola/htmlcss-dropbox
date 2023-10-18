@@ -501,6 +501,23 @@ section.faq > h1 {
   font-size: 35px;
 }
 
+section.faq p{
+  display: flex;
+  justify-content: space-between;
+}
+
+section.faq p>i{
+  padding-right: 3rem;
+}
+
+
+
+
+
+
+
+
+
 /*css per il footer*/
 footer {
   color: white;
@@ -532,6 +549,10 @@ footer section>div.icon-italy>p {
 
   }
 
+
+ footer div.list:hover{
+  border-bottom: 1px solid white;
+ }
  
  
 
