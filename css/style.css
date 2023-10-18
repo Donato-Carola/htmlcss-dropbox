@@ -1,226 +1,250 @@
 /*--RESET--*/
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  
-    /*border: 1px dashed black;*/
-  }
-  
-  body {
-    font-family: "Open Sans", sans-serif;
-  }
-  
-  /*css per dare flex ai tag a cui servono*/
-  .flex {
-    display: flex;
-  }
-  
-  .container {
-    max-width: 70%;
-    margin: 0 auto;
-  }
-  
-  /*header per la navigazione*/
-  
-  header {
-    height: 80px;
-  }
-  
-  nav.flex-nav {
-    justify-content: space-between;
-    width: 100%;
-    align-items: center;
-    height: 100%;
-  }
-  
-  .left-nav,
-  .right-nav {
-    align-items: center;
-  }
-  
-  div.left-nav img,
-  span {
-    padding: 0 1rem;
-    height: 100%;
-  }
-  
-  div.right-nav button {
-    margin-right: 0.5rem;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  /*border: 1px dashed black;*/
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+/*css per dare flex ai tag a cui servono*/
+.flex {
+  display: flex;
+}
+
+.container {
+  max-width: 70%;
+  margin: 0 auto;
+}
+
+/*header per la navigazione*/
+
+header {
+  height: 80px;
+}
+
+nav.flex-nav {
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  height: 100%;
+}
+
+.left-nav,
+.right-nav {
+  align-items: center;
+}
+
+div.left-nav img,
+span {
+  padding: 0 1rem;
+  height: 100%;
+}
+
+div.right-nav button {
+  margin-right: 0.5rem;
   padding: 0.5rem 1rem;
-  }
-  
-  .button {
-    
-    background-color: rgb(0, 97, 255);
-    color: white;
-    border: 0;
-  }
-  
-  
-  /*css per la sezione download-free*/
-  
-  section.download-free {
-    background-color: rgb(180, 208, 231);
-    width: 100%;
-    margin-bottom: 5rem;
-  }
-  
-  div.container-download-free{
-      position: relative;
-      top: 7rem;
-  }
-  
-  h1#titolo-download {
-    color: black;
-    font-size: 80px;
-   /* padding: 2rem 0;*/
-  }
-  
-  div.flex-box {
-    width: 100%;
-    justify-content: center;
-    
-   
-  }
-  
-  div.left-download {
-    padding-right: 1rem;
-    width: 30%;
-  }
-  
-  div.right-download {
-    width: 70%;
-  }
-  
-  div.left-download button.button {
-    margin: 2rem 0;
-    font-size: 1rem;
-    padding: 1rem 1.2rem ;
-  }
-  
-  div.left-download p > i {
-    font-size: 60px;
-    padding: 3rem 0 0 0;
-  }
-  
-  div.right-download img {
-      width: 100%;
-      
-  }
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+}
+
+.button {
+  background-color: rgb(0, 97, 255);
+  color: white;
+  border: 0;
+}
+
+/*css per la sezione download-free*/
+
+section.download-free {
+  background-color: rgb(180, 208, 231);
+  width: 100%;
+  margin-bottom: 5rem;
+}
+
+div.container-download-free {
+  position: relative;
+  top: 7rem;
+}
+
+h1#titolo-download {
+  color: black;
+  font-size: 80px;
+  /* padding: 2rem 0;*/
+}
+
+div.flex-box {
+  width: 100%;
+  justify-content: center;
+}
+
+div.left-download {
+  padding-right: 1rem;
+  width: 30%;
+}
+
+div.right-download {
+  width: 70%;
+}
+
+div.left-download button.button {
+  margin: 2rem 0;
+  font-size: 1rem;
+  padding: 1rem 1.2rem;
+}
+
+div.left-download p > i {
+  font-size: 60px;
+  padding: 3rem 0 0 0;
+}
+
+div.right-download img {
+  width: 100%;
+}
+
+
+
+
+
 
 /*Sezione 2*/
-  
-  
-  /*css per la sezione dove scegliere il piano business*/
-  
-  .container-business {
-    width: 60%;
-    margin: 0 auto;
-  }
-  
-  section.plane-business {
-    padding: 5rem 0;
-   
-    }
 
-   
-  
-  section.plane-business h1 {
-    padding: 2rem 0;
-    font-size: 40px;
-  }
-  
-  div.box-input {
-    padding: 0 0 2rem 0;
-  }
-  
- 
+/*css per la sezione dove scegliere il piano business*/
+
+.container-business {
+  width: 60%;
+  margin: 0 auto;
+}
+
+section.plane-business {
+  padding: 5rem 0;
+}
+
+section.plane-business h1 {
+  padding: 2rem 0;
+  font-size: 40px;
+}
+
+div.box-input {
+  padding: 0 0 2rem 0;
+}
+
+
+
+
+
+
 /*css lista*/
 
 
 
-
 div.box-piano-sub {
-    background-color: white;
-    
-    justify-content: space-between;
- 
+  background-color: white;
+
+  justify-content: space-between;
 }
 
-article.margin-singoli-box{
+article.margin-singoli-box {
   margin-right: 3rem;
 }
 
-
-  article.article-seconda-sezione{
-
-    
-    border:1px solid black;
-    
-
+article.article-seconda-sezione {
+  border: 1px solid black;
 }
 
-  article>h4.central{
-     text-align: center;
-     border-bottom: 1px solid black;
-  }
-
-div.box-piano-sub article > ul.style-list {
-    list-style: none;
-   
-    
-  }
-  
-  article.article-seconda-sezione .padding{
-     margin: 2rem 2.5rem;
-  }
-
-
-
-article.article-seconda-sezione>button{
- margin-left: 1.5rem;
- padding: 0.5rem 2rem;
-
+article > h4.central {
+  text-align: center;
+  border-bottom: 1px solid black;
 }
 
-div.flex-box-orizzontale-sub{
-  display: flex;
+article.article-seconda-sezione section.padding{
   padding: 2rem;
-  width: 100%;
-  
-  
 }
 
-div.flex-box-orizzontale-sub div>ul{
+div.box-piano-sub article > section.padding ul.style-list {
   list-style: none;
 }
 
-div.flex-box-orizzontale-sub button.button{
+article.article-seconda-sezione button{
+  width: 100%;
+}
+
+
+article.article-seconda-sezione section ul{
+  padding:1.5rem 0;
+}
+
+article.article-seconda-sezione section ul>li{
+  padding: 0.5rem ;
+}
+
+article.article-seconda-sezione section >hr{
+  width: 20%;
+  border: 0.01rem  solid rgba(128, 128, 128, 0.452);
+
+}
+
+section.padding ul>li{
+  display: flex;
+  align-items: first baseline;
+ 
+}
+
+section.padding ul>li>i{
+  padding: 0 0.25rem 0 0;
+}
+
+section.padding ul>li>i.fa-solid.fa-check{
+  color: green;
+}
+
+section.padding ul>li>button{
+  padding: 1rem 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*sezione 2 box orizzontale*/
+
+div.flex-box-orizzontale-sub {
+  display: flex;
+  padding: 2rem;
+  width: 100%;
+}
+
+div.flex-box-orizzontale-sub div > ul {
+  list-style: none;
+}
+
+div.flex-box-orizzontale-sub button.button {
   padding: 0.5rem 2rem;
   width: 100%;
 }
 
-div.flex-box-orizzontale-sub div.left-sub-row{
+div.flex-box-orizzontale-sub div.left-sub-row {
   width: 70%;
-  
 }
 
-div.flex-box-orizzontale-sub div.right-sub-row{
+div.flex-box-orizzontale-sub div.right-sub-row {
   width: 30%;
-
 }
 
 /*FINE SEZIONE 2*/
@@ -231,142 +255,90 @@ div.flex-box-orizzontale-sub div.right-sub-row{
 
 
 
-  
-  /*css per la sezione partner con due ragazzi che ridono*/
-  
-  section.partner-dropbox {
-    margin: 13rem 0;
-    }
 
 
 
 
+/*css per la sezione partner con due ragazzi che ridono*/
 
-   div.container-business >div.left-box-partner{
-   width: 60%;
-   }
+section.partner-dropbox {
+  margin: 13rem 0;
+}
 
-   div.container-business >div.right-box-partner{
-   padding: 3rem 3.5rem;
-    width: 40%;
-   
-    
-   }
+div.container-business > div.left-box-partner {
+  width: 60%;
+}
 
-   div.left-box-partner>img{
+div.container-business > div.right-box-partner {
+  padding: 3rem 3.5rem;
+  width: 40%;
+}
+
+div.left-box-partner > img {
   width: 100%;
-    object-fit:cover;
+  object-fit: cover;
+}
 
-   }
+div.right-box-partner h3 {
+  font-size: 25px;
+}
 
-   div.right-box-partner h3{
-   
-    font-size: 25px;
-   }
+div.right-box-partner p {
+  padding: 1rem 0;
+}
 
-   div.right-box-partner p{
-    padding: 1rem 0;
-   }
+div.right-box-partner button {
+  border: 1px solid black;
+  padding: 0.8rem 1.25rem;
+}
 
-   div.right-box-partner button{
-    border: 1px solid black;
-    padding: 0.8rem 1.25rem;
-   }
-   
+/*css per la sezione per il piano business */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  /*css per la sezione per il piano business */
-  
-  /*section.dropbox-business {
+/*section.dropbox-business {
     height: 1659px;
     background-color: coral;
   }*/
 
-
-  div.dimensioni-box-div{
+div.dimensioni-box-div {
   /*  border: 1px dashed black;*/
-    width: 100%;
-    padding-top: 2rem;
-  }
+  width: 100%;
+  padding-top: 2rem;
+}
 
-  div.container-business>h1{
-    font-size: 40px;
-  }
+div.container-business > h1 {
+  font-size: 40px;
+}
 
-  div.dimensioni-box-div article.dimensioni-box-article{
-    width: calc(100% / 3);
-    padding: 1rem 2rem;
+div.dimensioni-box-div article.dimensioni-box-article {
+  width: calc(100% / 3);
+  padding: 1rem 2rem;
+}
 
-  }
+article.dimensioni-box-article > img {
+  width: 100%;
+  object-fit: cover;
+}
 
-  article.dimensioni-box-article>img{
-    width: 100%;
-    object-fit: cover;
-  }
-
-  article.dimensioni-box-article>h3{
-    padding: 1rem 0;
-  }
-
-
-
-
-
-
-
-
-
-
-
-
+article.dimensioni-box-article > h3 {
+  padding: 1rem 0;
+}
 
 /*css sezione indipendente dalla quarta, quanti team usano dropbox*/
 
-section.team-use-dropbox{
+section.team-use-dropbox {
   width: 1100px;
   margin: 0 auto;
   padding: 10rem 0rem;
-    
-
 }
 
-
-section.team-use-dropbox>h1{
+section.team-use-dropbox > h1 {
   font-size: 40px;
   padding-bottom: 2.5rem;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-  
-  /*css per la sezione logo aziende partner*/
-  /*prima della correzione*/
- /*section.logo-aziende-partner {
+/*css per la sezione logo aziende partner*/
+/*prima della correzione*/
+/*section.logo-aziende-partner {
       width: 100%;
    }
 
@@ -390,139 +362,109 @@ section.team-use-dropbox>h1{
     flex-wrap: wrap;
   }
 
-*/ 
+*/
 
- /*dopo la correzione*/
+/*dopo la correzione*/
 
-
- /*section.logo-aziende-partner{
+/*section.logo-aziende-partner{
   width: 100%;
  }*/
 
- div.dimensioni-box-logo{
-   width: calc(100vw / 3);
-   height: calc(100vw / 3);
-   
+div.dimensioni-box-logo {
+  width: calc(100vw / 3);
+  height: calc(100vw / 3);
+}
 
-
- }
-
- div.flex-column-logo{
+div.flex-column-logo {
   flex-wrap: wrap;
   justify-content: center;
- }
+}
 
- article.box-loghi{
- 
+article.box-loghi {
   width: calc(100% / 2);
   height: calc(100% / 2);
+}
 
- }
-
- article.box-loghi img{
+article.box-loghi img {
   width: calc(100% / 2);
   margin: auto;
   filter: invert(1);
+}
 
- }
+#logo-green {
+  background-color: rgb(162, 211, 155);
+}
 
-
- #logo-green{
-    background-color:rgb(162, 211, 155) ;
-   
- }
-
- div.flex-column-logo article.box-loghi:hover{
+div.flex-column-logo article.box-loghi:hover {
   border: 20px solid green;
- }
+}
 
- #logo-mattone{
-  background-color:rgb(97, 8, 43) ;
- }
+#logo-mattone {
+  background-color: rgb(97, 8, 43);
+}
 
- #logo-blu{
-  background-color:rgb(0, 147, 206);
- }
+#logo-blu {
+  background-color: rgb(0, 147, 206);
+}
 
+#logo-arancio {
+  background-color: rgb(255, 28, 28);
+}
 
- #logo-arancio{
-  background-color:rgb(255, 28, 28);
- }
+#logo-red {
+  background-color: rgb(213, 0, 31);
+}
 
+#logo-azzurro {
+  background-color: rgb(180, 208, 231);
+}
 
- #logo-red{
-  background-color:rgb(213, 0, 31) ;
- }
+#logo-bluscuro {
+  background-color: rgb(13, 36, 129);
+}
 
+#logo-giallo {
+  background-color: rgb(255, 216, 48);
+}
 
- #logo-azzurro{
-  background-color:rgb(180, 208, 231);
- }
-
- #logo-bluscuro{
-  background-color:rgb(13, 36, 129);
- }
-
- #logo-giallo{
-  background-color:rgb(255, 216, 48);
- }
-
-#central-box{
+#central-box {
   background-color: rgb(245, 245, 245);
-  
 }
 
-div.central-info>img,
-div.central-info>p{
-    padding: 2rem;
-    
+div.central-info > img,
+div.central-info > p {
+  padding: 2rem;
 }
- 
-div.central-info>img{
+
+div.central-info > img {
   width: 50%;
 }
 
-
-
-
-
 /* CSS sezione aggiuntiva della quinta*/
 
-section.free-trial{
+section.free-trial {
   background-color: rgb(180, 208, 231);
   padding: 7rem 0;
-  
 }
 
-
-
-
-div.container-free-trial div.box-left-free{
+div.container-free-trial div.box-left-free {
   width: 50%;
   color: rgb(97, 8, 43);
   padding: 0 2rem 0 0;
   font-size: 25px;
-  
 }
 
-div.container-free-trial div.box-right-free{
- width: 50%;
- display: flex;
- justify-content: center;
- align-items: center;
-
-  
+div.container-free-trial div.box-right-free {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-div.container-free-trial div.box-right-free>button{
+div.container-free-trial div.box-right-free > button {
   padding: 0.5rem 3rem;
   border: none;
 }
-
-
-
-
-
 
 /*CSS SEZIONE DOMANDE*/
 
@@ -530,62 +472,35 @@ section.faq {
   padding: 7rem 0;
 }
 
-section.faq>hr{
+section.faq > hr {
   margin: 2rem 0;
 }
 
-section.faq>h1{
+section.faq > h1 {
   font-size: 35px;
 }
 
+/*css per il footer*/
+footer {
+  color: white;
+  background-color: black;
+}
 
+footer section > div {
+  padding: 7rem 0;
+  justify-content: space-between;
+}
 
+div.list > h4 {
+  padding-bottom: 1rem;
+  font-size: x-large;
+}
 
+div.list ul {
+  list-style: none;
+  line-height: 3rem;
+}
 
-
-
-
-
-
-
-
-
-
-
-  
-  /*css per il footer*/
-  footer {
-   
-    color: white;
-    background-color: black;
-  }
-
-  footer section>div{
-    padding: 7rem 0;
-    justify-content: space-between;
-  }
-
-
-
-  div.list>h4{
-    padding-bottom: 1rem;
-    font-size: x-large;
-
-  }
-
-
-  div.list ul{
-    list-style: none;
-    line-height: 3rem;
-    
-  }
-
-  footer p{
+footer p {
   padding: 2rem 0;
-    
-  }
-  
- 
-
-
-  
+}
