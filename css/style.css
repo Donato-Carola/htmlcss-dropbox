@@ -508,7 +508,7 @@ footer {
 }
 
 footer section > div {
-  padding: 7rem 0;
+  padding: 7rem 0 5rem 0;
   justify-content: space-between;
 }
 
@@ -522,6 +522,20 @@ div.list ul {
   line-height: 3rem;
 }
 
-footer p {
-  padding: 2rem 0;
-}
+
+
+footer section>div.icon-italy>p {
+ 
+  display: flex;
+  align-items: center;
+ 
+
+  }
+
+ 
+ 
+
+ 
+
+
+
