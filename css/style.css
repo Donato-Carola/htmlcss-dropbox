@@ -383,45 +383,119 @@ section.team-use-dropbox>h1{
 
 
   
-  /*css per la sezione lo go aziende partner*/
-  
- section.logo-aziende-partner {
+  /*css per la sezione logo aziende partner*/
+  /*prima della correzione*/
+ /*section.logo-aziende-partner {
+      width: 100%;
+   }
 
-   width: 100%;
-   
-     }
-
-     div.dimensioni-box-logo{
-      width: calc(100% / 3);
-     }
+    div.dimensioni-box-logo{
+    width: calc(100% / 3);
+    }
    
     
     
-    
-
-
-
- section.logo-aziende-partner>div.box-aziende-left{
-      
-      
-      flex-wrap: wrap;
-  }
+   section.logo-aziende-partner>div.box-aziende-left{
+    flex-wrap: wrap;}
 
 
  div.dimension-img img{
-padding: 4rem;
+     padding: 4rem;
      object-fit:contain;
      width: calc(100% / 2);
+   
  }
-
- 
-
-
   div.box-aziende-right{
     flex-wrap: wrap;
   }
 
+*/ 
+
+ /*dopo la correzione*/
+
+
+ /*section.logo-aziende-partner{
+  width: 100%;
+ }*/
+
+ div.dimensioni-box-logo{
+   width: calc(100vw / 3);
+   height: calc(100vw / 3);
+   
+
+
+ }
+
+ div.flex-column-logo{
+  flex-wrap: wrap;
+  justify-content: center;
+ }
+
+ article.box-loghi{
  
+  width: calc(100% / 2);
+  height: calc(100% / 2);
+
+ }
+
+ article.box-loghi img{
+  width: calc(100% / 2);
+  margin: auto;
+  filter: invert(1);
+
+ }
+
+
+ #logo-green{
+    background-color:rgb(162, 211, 155) ;
+    border: 6px solid green;
+ }
+
+ #logo-mattone{
+  background-color:rgb(97, 8, 43) ;
+ }
+
+ #logo-blu{
+  background-color:rgb(0, 147, 206);
+ }
+
+
+ #logo-arancio{
+  background-color:rgb(255, 28, 28);
+ }
+
+
+ #logo-red{
+  background-color:rgb(213, 0, 31) ;
+ }
+
+
+ #logo-azzurro{
+  background-color:rgb(180, 208, 231);
+ }
+
+ #logo-bluscuro{
+  background-color:rgb(13, 36, 129);
+ }
+
+ #logo-giallo{
+  background-color:rgb(255, 216, 48);
+ }
+
+#central-box{
+  background-color: rgb(245, 245, 245);
+  
+}
+
+div.central-info>img,
+div.central-info>p{
+    padding: 2rem;
+    
+}
+ 
+
+
+
 
 
 /* CSS sezione aggiuntiva della quinta*/
